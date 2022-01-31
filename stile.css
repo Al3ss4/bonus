@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    padding: 10% 20%;
+}
+.card{
+    width: calc(100% / 3);
+    position: relative;
+    margin-top: 50px;
+    padding-left: 40px;
+    float: left;
+    margin-bottom: 0px;
+}
+.card-top{
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.img1{
+    background-image: url("img/1.webp");
+}
+.img2{
+    background-image: url("img/2.webp");
+}
+.img3{
+    background-image: url("img/3.webp");
+}
+.img4{
+    background-image: url("img/4.webp");
+}
+.img5{
+    background-image: url("img/5.webp");
+}
+.img6{
+    background-image: url("img/6.webp");
+}
+.card img{
+    width: 100%;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    left: 95.3%;
+}
+.card:hover .heart{
+    color: red;
+}
+.card:hover .card-top{
+    background-image:url("img/1b.webp");
+}
+.sconto{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 8%;
+    color: white;
+    left: 0.5%;
+    display: inline-block;
+}
+.descrizione{
+    background-color: green;
+    position: absolute;
+    font-size: 12px;
+    bottom: 8%;
+    left: 9%;
+    color: white;
+}
+.card:hover .img2{
+    background-image: url("img/2b.webp");
+}
+.sconto2{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 8%;
+    color: white;
+    right: 92%;
+}
+.card:hover .img3{
+    background-image:  url("img/3b.webp");
+}
+.sconto3{
+    background-color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 8%;
+    color: white;
+    right: 92%;
+}
+.card:hover .img4{
+    background-image: url("img/4b.webp");
+}
+.card:hover .img5{
+    background-image: url("img/5b.webp");
+}
+.card:hover .img6{
+    background-image: url("img/6b.webp");
+}
+.descrizione1{
+    background-color: green;
+    position: absolute;
+    font-size: 12px;
+    bottom: 8%;
+    color: white;
+    right: 82%;
+}
+.marca{
+    font-size: 10px;
+}
+.articolo{
+    font-weight: bolder;
+}
+.prezzo{
+    font-size: 10px;
+    color: red;
+    font-weight: bolder;
+}
+.sconto1{
+    font-size: 10px;
+    text-decoration-line: line-through;
+    color: black;
+}
